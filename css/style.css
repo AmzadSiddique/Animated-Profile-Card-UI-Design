@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    background: linear-gradient(35deg, #9fb5cf, #c2e9f0);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+.card1999 {
+    position: relative;
+    display: inline-block;
+    border-radius: 8px 0px;
+    overflow: hidden;
+    margin: 10px;
+    max-width: 302px;
+    width: 100%;
+    background-color: ghostwhite;
+    color: #000000a1;
+    text-align: center;
+    box-shadow: 0 0 19px rgb(0 0 0 / 28%);
+}
+
+.card1999 * {
+  box-sizing: border-box;
+}
+
+.logo {
+  padding: 15% 10% 0;
+}
+
+.logo img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 50%;
+  max-width: 40%;
+}
+
+figcaption {
+  padding: 5% 10% 15%;
+}
+
+.card1999 h3 {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 3px 0;
+    font-family: 'Oswald';
+}
+
+.card1999 h5 {
+    color: #8b8b8b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.icons i {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.5rem;
+    color: #8b8b8b;
+}
+
+.icons i:hover {
+  color: black;
+}
+
+.icons i a {
+  text-decoration: none;
+}
